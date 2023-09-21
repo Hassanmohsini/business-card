@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin: auto;
+}
+img {
+  min-height: 100%;
+}
+.card {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  height: 400px;
+  width: 300px;
+  font-family: "Dancing Script", cursive;
+  border: solid rgba(153, 3, 3, 0.411) 2px;
+  background-color: bisque;
+  margin: 20px;
+  border-style: dashed;
+  border-radius: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  height: 100px;
+  width: 280px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+.images {
+  content: "";
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid rgb(250, 124, 7);
+  height: 100px;
+  width: 100px;
+}
+.img-1 {
+  background-image: url(https://source.unsplash.com/random/?girl,face);
+}
+.img-2 {
+  background-image: url(https://source.unsplash.com/random/?girl,eye);
+}
+.img-3 {
+  background-image: url(https://source.unsplash.com/random/?girl,nose);
+}
+.img-4 {
+  background-image: url(https://source.unsplash.com/random/?girl,ear);
+}
+.img-5 {
+  background-image: url(https://source.unsplash.com/random/?girl,hair);
+}
+.img-6 {
+  background-image: url(https://source.unsplash.com/random/?girl,head);
+}
+.img-7 {
+  background-image: url(https://source.unsplash.com/random/?girl,forehead);
+}
+.img-8 {
+  background-image: url(https://source.unsplash.com/random/?girl,chin);
+}
+.name {
+  text-align: center;
+  height: 100px;
+  /* border: red 1px solid; */
+  padding-top: 15px;
+}
+.main {
+  background-color: goldenrod;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 155px;
+  margin-top: 30px;
+}
+h3 {
+  margin-bottom: 10px;
+}
+p {
+  margin-top: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(3, 3, 3);
+  /* border: 1px solid red; */
+  margin: 10px;
+  border-radius: 5px;
+  height: 60px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.icons {
+  content: "";
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.icons a {
+  color: white;
+  border: 3px red solid;
+  border-radius: 100%;
+  margin: 3px;
+  height: 30px;
+  width: 30px;
+}
+i {
+  width: 28px;
+  height: 28px;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+.footer h3 {
+  color: white;
+}
+:hover .images {
+  transform: scale(1.2);
+}
