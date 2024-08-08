@@ -1,3 +1,3 @@
 https://hassanmohsini.github.io/business-card/
 
-<img src="assets/screenshot.png" alt="Screenshot" width="600">
+<img src="./Screenshot card.png" alt="Screenshot" width="600">
